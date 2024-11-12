@@ -15,7 +15,7 @@ humanScore = computerScore = 0;
 
 
 function playRound(){
-    const playerChoice = getHumanChoice();
+    const playerChoice = getHumanChoice().toLowerCase();
     const computerChoice = getComputerChoice();
     if (playerChoice === 'rock' && computerChoice === 'scissors'){
         console.log(`You win! ${playerChoice} beats ${computerChoice}`);
