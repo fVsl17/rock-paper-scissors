@@ -1,0 +1,74 @@
+body {
+    padding-top:125px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:chocolate;
+}
+
+.game {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    border-radius:5px;
+    flex-basis:900px;
+    border-style:solid;
+    height: 500px;
+    margin:0;
+    padding:0;
+}
+
+.scores {
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    width: 800px;
+    gap:400px;
+}
+
+.player-score, .computer-score {
+    font-size:30px;
+    margin:0;
+    color:navy;
+}
+
+.choices {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border:5px;
+    border-style:solid;
+    flex-basis:250px;
+    width:700px;
+    gap:135px;
+}
+
+.separator {
+    border:5px;
+    border-style:solid;
+    height:250px;
+}
+
+.player-choice, .computer-choice {
+    font-size:32px;
+    font-weight: bold;
+}
+.buttons {
+    display:flex;
+    padding-bottom:25px;
+    width:400px;
+    justify-content: space-between;
+    gap:25px;
+}
+
+.rock, .paper, .scissors {
+    height:50px;
+    width:100px;
+    background-color:brown;
+    color:aliceblue;
+    font-size:20px;
+    font-weight: bold;
+    border-radius:10px;
+}
+
