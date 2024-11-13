@@ -17,6 +17,7 @@ body {
     height: 500px;
     margin:0;
     padding:0;
+    flex:none;
 }
 
 .scores {
@@ -42,6 +43,7 @@ body {
     flex-basis:250px;
     width:700px;
     gap:135px;
+    flex-grow:0;
 }
 
 .separator {
@@ -72,3 +74,7 @@ body {
     border-radius:10px;
 }
 
+.player, .computer {
+    display:flex;
+    flex-grow:0;
+}
